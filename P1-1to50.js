@@ -49,13 +49,7 @@
 
 
 //Q7. JavaScript program to find out if 1st January will be a Sunday between 2014 and 2050. 
-// var year= 0; 
-// for (var year = 2014; year <= 2050; year++)
-// {
-//     var d = new Date(year, 0, 1);
-//     if (d.getDay() === 0)
-//         console.log("1st January is a Sunday in " + year);
-// }
+
 
 // Q8. JavaScript program where the program takes a random integer between 1 and 10, and the user is then prompted to input a guess number. The program displays a message "Good Work" if the input matches the guess number otherwise "Not matched".
 
@@ -206,25 +200,7 @@
 
 
 //Q27.  JavaScript program to check whether a string starts with 'Java' if it does not otherwise.
-// function start_spec_str(str)
-// {
-//   if (str.length < 4)
-//   {
-//     return false;
-//   }
-//   front = str.substring(0, 4);
-//   if (front == 'Java') 
-//   {
-//     return true;
-//   }
-//    else 
-//    {
-//     return false;
-//   }
-// }
-// console.log(start_spec_str("JavaScript"));
-// console.log(start_spec_str("Java"));
-// console.log(start_spec_str("Python"));
+
 
 //Q28. JavaScript program to check whether two given integer values are in the range 50..99 (inclusive). Return true if either of them falls within the range.
 // function checkRange(a,b){
@@ -374,20 +350,7 @@
 //   console.log(three_numbers(8, 7, 18));
 
 //Q42. JavaScript program to check whether three given numbers are increasing in strict or in soft mode.  
-// function number_order(x, y, z ) {
-//     if ( y > x && z > y) 
-//     {
-//       return "strict mode";    
-//     }
-//     else if(z > y && x > y) 
-//      return "Soft mode";
-//     else
-//       return "Undefinded";
-//   }
-  
-//   console.log(number_order(10,15,31));
-//   console.log(number_order(24,22,31));
-//   console.log(number_order(50,21,15));
+
 
 
 //Q43. JavaScript program to check from three given numbers (non negative integers) that two or all of them have the same rightmost digit.
