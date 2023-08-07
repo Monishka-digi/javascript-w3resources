@@ -19,13 +19,6 @@
 
 
 //Q53. JavaScript program to check whether the characters a and b are separated by exactly 3 places anywhere (at least once) in a given string.  
-// function abtest(str){
-//     if ((/a...b/).test(str)|| (/b...a/).test(str))
-//     return true;
-//     else 
-//     return false;
-// }
-// console.log(abtest("abcdefbedfaghiba"));
 
 
 //Q54 JavaScript program to count the number of vowels in a given string.
@@ -52,30 +45,11 @@
 
 
 //Q58. JavaScript program to create an updated string of 4 copies of the last 3 characters of a given original string. The string length must be 3 and above. 
-// function newstring(str)
-// {
-//   if (str.length >= 3) {
-//     result_str = str.substring(str.length - 3);
-//     return result_str + result_str + result_str + result_str;
-//   }
-//   else
-//     return false;
-// }
-// console.log(newstring("Python 3.0"));
-// console.log(newstring("JS"));
-// console.log(newstring("JavaScript"));
+
 
 
 //Q59. JavaScript program to extract the first half of a even string.  
-// function first_half (str) {
-//     if (str.length % 2 == 0) {
-//       return str.substring(0, str.length / 2);
-//     }
-//     return str;
-//   }
-//   console.log(first_half("Python"));  
-//   console.log(first_half("JavaScript")); 
-//   console.log(first_half("PHP"));
+
 
 
 //Q60. JavaScript program to create a new string without the first and last characters of a given string.  
